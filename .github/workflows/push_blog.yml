@@ -25,8 +25,8 @@ jobs:
     
     - name: Setup Hexo Dependencies
       run: |
-        npm install hexo-cli -g
-        npm install
+        npm --registry https://registry.npm.taobao.org install hexo-cli -g
+        npm --registry https://registry.npm.taobao.org install
     
     - name: Setup Deploy Private Key
       env:
