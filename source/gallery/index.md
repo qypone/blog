@@ -1,7 +1,7 @@
 ---
 title: gallery
 date: 2021-12-07 21:38:38
-
+tag: galleryGroup
 ---
 
 <div class="gallery-group-main">
