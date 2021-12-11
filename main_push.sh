@@ -14,8 +14,4 @@ git pull origin main
 echo "正在push远程代码..."
 git push origin main
 
-echo "请输入要拉取的分支名称"
-echo "0 -> main"
-echo "如果是其他分支请直接输入分支名称"
-
 echo "---END---"
