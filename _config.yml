@@ -4,16 +4,16 @@
 
 # Site
 title: Er BaiShao
-subtitle: ''
-description: ''
+subtitle: '元气满满的一天'
+description: '技术文章、生活感悟'
 keywords:
-author: erbaishao
+author: Er BaiShao
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://qypone.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
