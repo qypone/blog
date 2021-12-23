@@ -1,6 +1,5 @@
 ---
 title: java语言
-description: GC策略，GC调优
 tags:
   - java
 categories:
