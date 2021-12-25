@@ -1,6 +1,6 @@
 ---
 title: java判等解析
-description: '==，equal，compareTo该怎么用，易错点'
+description: '==，equal该怎么用，易错点，Integer String判等案例，为什么重写hashcode'
 tags:
   - java
   - 编码
