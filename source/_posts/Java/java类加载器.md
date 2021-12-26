@@ -9,7 +9,7 @@ date: 2021-12-25 20:03:00
 
 ## 类的生命周期
 
-​	![image-20211225205653567](.\img\classload1.png)
+<img src="./img/classload1.png">
 
 1. 加载：寻找class文件
 2. 校验：校验格式、依赖
