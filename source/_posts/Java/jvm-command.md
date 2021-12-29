@@ -1,5 +1,6 @@
 ---
 title: JVM命令行工具
+description: 'jps、jinfo、jstat、jmap、jstack、jcmd等工具案例'
 tags:
   - java
 categories:
