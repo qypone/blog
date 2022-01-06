@@ -1,10 +1,11 @@
 ---
 title: GC（Gabage Collection）
-description: '待定'
+description: '基本原理、GCroot'
 tags:
   - java
 categories:
   - java
+abbrlink: bffdd421
 date: 2022-01-04 23:09:00
 ---
 
