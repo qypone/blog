@@ -44,3 +44,12 @@ Java 虚拟机栈（Java Virtual Machine Stacks）也是线程私有的，它的
 * 原子性操作 
 * 内存屏障
 
+## 为什么移除持久代
+
+- 它的大小是在启动时固定好的——很难进行调优。-XX:MaxPermSize，设置成多少好呢？
+- HotSpot的内部类型也是Java对象：它可能会在Full GC中被移动，同时它对应用不透明，且是非强类型的，难以跟踪调试，还需要存储元数据的元数据信息（meta-metadata）。
+- 简化Full GC：每一个回收器有专门的元数据迭代器。
+- 可以在GC不进行暂停的情况下并发地释放类数据。
+- 使得原来受限于持久代的一些改进未来有可能实现
+
+[Metaspace 之一：Metaspace整体介绍（永久代被替换原因、元空间特点、元空间内存查看分析方法） - duanxz - 博客园 (cnblogs.com)](https://www.cnblogs.com/duanxz/p/3520829.html)
