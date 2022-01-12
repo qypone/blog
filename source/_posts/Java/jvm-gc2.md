@@ -116,7 +116,7 @@ Concurrent Reset（并发重置） 此阶段与应用程序并发执行，重置
 
 ## G1
 
-
+JDK 9 默认GC
 
 ## ZGC
 
