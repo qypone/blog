@@ -255,7 +255,7 @@ G1 启动标记周期，但在 Mix GC 之前，老年代就被填满，这时候
 
 1. Serial + Serial Old 实现单线程的低延迟 垃圾回收机制
 2. ParNew + CMS，实现多线程的低延迟垃 圾回收机制
-3. Parallel Scavenge和Parallel Scavenge Old，实现多线程的高吞吐量垃圾 回收机制
+3. Parallel Scavenge和Parallel Scavenge Old，实现多线程的高吞吐量垃圾回收机制
 
 ## GC如何选择
 
