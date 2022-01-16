@@ -4,7 +4,7 @@ description: '待定..'
 tags:
   - java
 categories:
-  - java
+  - jvm
 abbrlink: bffdd006
 date: 2022-01-12 22:54:00
 ---

@@ -1,10 +1,10 @@
 ---
-title: GC（Gabage Collection）
+title: GC基本原理（Gabage Collection）
 description: '基本原理、GCroot、标记清除算法'
 tags:
   - java
 categories:
-  - java
+  - jvm
 abbrlink: bffdd007
 date: 2022-01-04 23:09:00
 ---

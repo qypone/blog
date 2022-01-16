@@ -4,7 +4,7 @@ description: 'jps、jinfo、jstat、jmap、jstack、jcmd等工具案例'
 tags:
   - java
 categories:
-  - java
+  - jvm
 abbrlink: bffdd005
 date: 2021-12-26 22:05:23
 ---

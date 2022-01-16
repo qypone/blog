@@ -4,7 +4,7 @@ description: 'jconsole、jvisualvm、VisualGC、jmc'
 tags:
   - java
 categories:
-  - java
+  - jvm
 abbrlink: bffdd008
 date: 2021-12-29 23:57:00
 ---

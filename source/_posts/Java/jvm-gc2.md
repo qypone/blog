@@ -1,10 +1,10 @@
 ---
-title: GC（Gabage Collection）
+title: 常用GC（Gabage Collection）
 description: '常见GC，串行GC、并行GC、CMS、G1、ZGC等'
 tags:
   - java
 categories:
-  - java
+  - jvm
 abbrlink: bffdd010
 date: 2022-01-10 11:00:00
 ---
