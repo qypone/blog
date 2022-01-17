@@ -1,6 +1,6 @@
 ---
 title: jvm内存分析及工具
-description: '内存结构：对象头（Header)、实例数据（Instance Data）和对齐填充（Padding）'
+description: '内存结构：对象头（Header)、实例数据（Instance Data）和对齐填充（Padding）,内存分析，常见OOM类型及原因等'
 tags:
   - java
 categories:
@@ -80,11 +80,31 @@ date: 2022-01-13 23:16:00
 
 * 现象：创建新的对象时，堆内存中的空间不足以存放新创建的对象
 
-* 产生的原因
+* 产生原因
   * 很多时候就类似于将 XXL 号的对象，往 S 号的 Java heap space 里面塞。其实清楚了原因，问题就很容易解决了：只要增加堆内存的大小，程序就能正常运行
   * 代码问题导致的：
     * 超出预期的访问量/数据量：应用系统设计时，一般是有 “容量” 定义的，部署这么多机器，用来处理一定流量的数据/业务。如果访问量突然飙升，超过预期的阈值，类似于时间坐标系中针尖形状的图谱。那么在峰值所在的时间段，程序很可能就会卡死、并触发 java.lang.OutOfMemoryError: Java heap space错误
     * 内存泄露(Memory leak)：这也是一种经常出现的情形。由于代码中的某些隐蔽错误，导致系统占用的内存越来越多。如果某个方法/某段代码存在内存泄漏，每执行一次，就会（有更多的垃圾对 象）占用更多的内存。随着运行时间的推移，泄漏的对象耗光了堆中的所有内存，那么 java.lang.OutOfMemoryError: Java heap space 错误就爆发了。
+
+#### OutOfMemoryError: PermGen space/OutOfMemoryError: Metaspace
+
+* 产生原因：是加载到内存中的 class 数量太多或体积太大，超过了 PermGen 区的大小。
+
+* 解决办法：增大 PermGen/Metaspace
+
+  -XX:MaxPermSize=512m
+
+  -XX:MaxMetaspaceSize=512m
+
+高版本 JVM 也可以： -XX:+CMSClassUnloadingEnabled
+
+#### OutOfMemoryError: Unable to create new native thread
+
+* 产生原因：程序创建的线程数量已达到上限值的异常信息
+* 解决思路： 
+  * 调整系统参数 ulimit -a，echo 120000 > /proc/sys/kernel/threads-max 
+  * 降低 xss 等参数 
+  * 调整代码，改变线程创建和使用方式
 
 ## 好文
 
