@@ -12,9 +12,7 @@ date: 2022-01-13 23:16:00
 ## 内存结构
 
 在HotSpot虚拟机中，对象在内存中存储的布局可以分为3块区域：**对象头（Header)**、**实例数据（Instance Data）**和**对齐填充（Padding）**
-
-<img src="jvm-memory/image-20220117103745812.png" alt="image-20220117103745812" style="zoom:70%;" />
-
+![image-20220105210350723](jvm-memory/image-20220117103745812.png)
 ### 对象头
 
 1. markword
