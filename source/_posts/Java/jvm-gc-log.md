@@ -1,11 +1,11 @@
 ---
-title: GC日志分析和调优
-description: '待定..'
+title: 简单GC日志分析和调优例子
+description: '一个例子，观察使用不同gc、不同堆大小时gc次数、gc使用时间、创建对象数量（类比吞吐量）'
 tags:
   - java
 categories:
   - jvm
-abbrlink: bffdd006
+abbrlink: jvm-gc-log
 date: 2022-01-12 22:54:00
 ---
 
