@@ -1,6 +1,6 @@
 ---
 title: JVM 问题分析调优经验
-description: '待定'
+description: '高分配速率、过早提升带来的问题及解决方案'
 tags:
   - java
 categories:
