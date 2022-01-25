@@ -17,3 +17,5 @@ date: 2022-01-19 23:22:00
 
 [100%弄明白5种IO模型]: https://zhuanlan.zhihu.com/p/115912936	"100%弄明白5种IO模型"
 
+[100%弄明白5种IO模型 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/115912936)
+
