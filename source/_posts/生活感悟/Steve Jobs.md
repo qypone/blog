@@ -16,7 +16,7 @@ date: 2022-02-15 15:42:00
 
 技术、艺术、商业的完美结合
 
-Apple 1，Apply 2，麦金塔，皮克斯，iPod，ipad，iphone、
+Apple I，Apply II，麦金塔，皮克斯，iPod，ipad，iphone、
 
 
 
