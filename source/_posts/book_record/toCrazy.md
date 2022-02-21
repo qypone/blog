@@ -1,9 +1,9 @@
 ---
 title: 致疯狂的人
 tags:
-  - 生活感悟
+  - 读书笔记
 categories:
-  - 生活感悟
+  - 读书笔记
 abbrlink: toCrazy
 date: 2022-02-14 17:59:00
 ---
