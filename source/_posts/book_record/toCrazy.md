@@ -1,5 +1,5 @@
 ---
-title: 致疯狂的人
+title: 《乔布斯传》-致疯狂的人
 tags:
   - 读书笔记
 categories:

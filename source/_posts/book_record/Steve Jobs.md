@@ -1,5 +1,5 @@
 ---
-title: SteveJobs
+title: 《乔布斯传》
 tags:
   - 读书笔记
 categories:
