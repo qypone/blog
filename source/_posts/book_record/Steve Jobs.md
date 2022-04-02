@@ -1,9 +1,9 @@
 ---
 title: 《乔布斯传》
 tags:
-  - 读书笔记
+  - 读书
 categories:
-  - 读书笔记
+  - 读书
 abbrlink: Steve_Jobs
 date: 2022-02-15 15:42:00
 ---

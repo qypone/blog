@@ -1,9 +1,9 @@
 ---
 title: 《乔布斯传》-致疯狂的人
 tags:
-  - 读书笔记
+  - 读书
 categories:
-  - 读书笔记
+  - 读书
 abbrlink: toCrazy
 date: 2022-02-14 17:59:00
 ---
