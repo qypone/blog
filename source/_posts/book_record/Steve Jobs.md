@@ -16,8 +16,7 @@ date: 2022-02-15 15:42:00
 
 技术、艺术、商业的完美结合
 
-Apple I，Apple II，麦金塔，皮克斯，iPod，ipad，iphone、
-
+Apple I，Apple II，麦金塔，皮克斯，iPod，ipad，iphone。
 
 
 天才周围总是有很多天才
