@@ -9,8 +9,8 @@ fi
 echo $describe
 git commit -m $describe
 
-echo "正在pull远程代码..."
-git pull origin main
+# echo "正在pull远程代码..."
+# git pull origin main
 echo "正在push远程代码..."
 git push origin main
 
